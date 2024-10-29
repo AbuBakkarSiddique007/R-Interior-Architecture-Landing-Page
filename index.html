@@ -38,11 +38,12 @@
             theme: {
                 extend: {
                     colors: {
-                        nav_menu_one: '#ABEF5F',
+                        nav_menu_one: 'hsla(88,81%,65%,1)',
                         nav_menu_two: '#494949',
                         nav_menu_three: '#737373',
+                        heading: 'rgb(33, 33, 33)',
 
-                        btn_bg: 'rgb(171, 239, 95)',
+                        btn_bg: 'hsla(88,81%,65%,0.5)',
 
                         //using style:
                         //text-className
@@ -85,6 +86,7 @@
     <!-- Header Section  -->
     <header class=" bg-[#F6F6F6]">
 
+        <!-- Nav bar section -->
         <nav class="navbar w-11/12 mx-auto border-2 border-green-600 my-12">
             <div class="navbar-start">
                 <a href="#" class="text-black  flex justify-center items-center gap-2">
@@ -153,6 +155,38 @@
                 </div>
             </div>
         </nav>
+
+
+        <!-- Banner Section -->
+        <section class="border-2 border-green-500  w-11/12 mx-auto mt-14 mb-24">
+            <div>
+                <div class="w-2/4 mx-auto border-2 border-red-700 mb-4">
+                    <img class="w-full h-full" src="./assets/banner.png" alt="">
+
+                </div>
+
+                <div class="border-2 border-yellow-400 w-4/5 mx-auto">
+                    <h1 class="text-6xl font-bold text-center mb-5 text-heading">
+                        A barn house of this design has a striking appearance
+                    </h1>
+                    <p class="border-2 border-black font-semibold text-nav_menu_three mb-8 text-center">
+                        The barn house captivates with its blend of rustic charm and modern sophistication, featuring
+                        weathered wood, sleek metal accents, and large windows that flood the space with natural light.
+                    </p>
+
+                    <button class="bg-btn_bg px-5 py-4 rounded-3xl flex justify-center items-center gap-3 mx-auto">
+                        <span>
+                            View Details
+                        </span>
+                        <span class=" ">
+                            <i
+                                class="fa-solid fa-arrow-up rotate-45 w-8 h-8 rounded-full flex justify-center items-center  bg-nav_menu_one"></i>
+                        </span>
+                    </button>
+                </div>
+            </div>
+
+        </section>
 
     </header>
 

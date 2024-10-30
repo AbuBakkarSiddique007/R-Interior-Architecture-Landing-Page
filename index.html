@@ -66,9 +66,11 @@
                         //<body class="font-Poppins">
                     },
                     backgroundImage: {
-                        first_image: "url('yourImagePathHere')",
-                        second_image: "url('yourImagePathHere')",
-                        third_image: "url('yourImagePathHere')",
+                        first_image: "url('./assets/bg.jpg')",
+
+
+                        // second_image: "url('yourImagePathHere')",
+                        // third_image: "url('yourImagePathHere')",
 
                         //using style:
                         //bg-className
@@ -80,6 +82,7 @@
             }
         }
     </script>
+
 
 </head>
 
@@ -176,7 +179,8 @@
                         weathered wood, sleek metal accents, and large windows that flood the space with natural light.
                     </p>
 
-                    <button class="bg-btn_bg px-5 py-2.5 font-bold rounded-3xl flex justify-center items-center gap-3 mx-auto">
+                    <button
+                        class="bg-btn_bg px-5 py-2.5 font-bold rounded-3xl flex justify-center items-center gap-3 mx-auto">
                         <span>
                             View Details
                         </span>
@@ -188,6 +192,7 @@
                 </div>
             </div>
         </section>
+
     </header>
 
     <!-- Main Section -->
@@ -416,6 +421,86 @@
 
 
         </section>
+
+
+        <!-- Our Latest Portfolio section  -->
+        <section>
+        </section>
+
+
+
+        <!-- Read Our Articles and News section  -->
+        <section>
+        </section>
+
+
+        <!-- Let’s Discuss Next Project section  -->
+        <section class="bg-first_image bg-cover bg-no-repeat">
+            <div class="w-11/12 mx-auto border-2 border-red-500 mt-2">
+
+                <div class="flex flex-col justify-center items-center">
+
+                    <button
+                        class="text-nav_menu_three font-semibold my-2 px-4 py-3 bg-btn_bg rounded-3xl flex justify-center items-center ">
+                        <i class="fa-solid fa-arrow-right mr-2"></i>
+                        <span>Let’s Connect</span>
+                    </button>
+
+                    <h1 class="text-4xl font-bold text-gray-800 leading-tight">
+                        Let’s Discuss Next Project
+                    </h1>
+
+                    <p class="text-2xl text-gray-600 mt-4 text-center">
+                        The barn house captivates with its blend of rustic charm and modern sophistication, <br>
+                        featuring
+                        weathered wood, sleek metal accents.
+                    </p>
+                </div>
+
+                <!-- Form  -->
+
+                <div class="mx-4 md:mx-14 rounded-lg">
+                    <div class="p-4 md:p-8">
+                        <!-- Name Inputs -->
+                        <div class="flex flex-col md:flex-row gap-4">
+                            <input type="text" name="first_name" placeholder="First Name *"
+                                class="mt-1 block w-full md:w-1/2 rounded-full border border-slate-300 bg-white px-3 py-4 placeholder-slate-400 shadow-sm placeholder:font-semibold placeholder:text-gray-500 focus:border-sky-500 focus:outline-none focus:ring-1 focus:ring-sky-500 sm:text-sm" />
+
+                            <input type="text" name="last_name" placeholder="Last Name *"
+                                class="mt-1 block w-full md:w-1/2 rounded-full border border-slate-300 bg-white px-3 py-4 placeholder-slate-400 shadow-sm placeholder:font-semibold placeholder:text-gray-500 focus:border-sky-500 focus:outline-none focus:ring-1 focus:ring-sky-500 sm:text-sm" />
+                        </div>
+
+                        <!-- Phone and Email Inputs -->
+                        <div class="my-6 flex flex-col md:flex-row gap-4">
+                            <input type="text" name="phone_number" placeholder="Phone Number *"
+                                class="mt-1 block w-full md:w-1/2 rounded-full border border-slate-300 bg-white px-3 py-4 placeholder-slate-400 shadow-sm placeholder:font-semibold placeholder:text-gray-500 focus:border-sky-500 focus:outline-none focus:ring-1 focus:ring-sky-500 sm:text-sm" />
+
+                            <input type="email" name="email" placeholder="Email *"
+                                class="mt-1 block w-full md:w-1/2 rounded-full border border-slate-300 bg-white px-3 py-4 placeholder-slate-400 shadow-sm placeholder:font-semibold placeholder:text-gray-500 focus:border-sky-500 focus:outline-none focus:ring-1 focus:ring-sky-500 sm:text-sm" />
+                        </div>
+
+                        <!-- Message Textarea -->
+                        <div>
+                            <textarea name="message" id="text" rows="4" placeholder="Message"
+                                class="mb-10 h-40 w-full resize-none rounded-xl border border-slate-300 p-5 font-semibold placeholder-gray-300 focus:border-sky-500 focus:outline-none focus:ring-1 focus:ring-sky-500"></textarea>
+                        </div>
+
+                        <!-- Book Consult Button -->
+                        <div
+                            class="flex justify-center items-center text-center bg-[#ABEF5F] rounded-full cursor-pointer">
+                            <p class="text-xl rounded-lg px-3 py-3 font-bold text-black">
+                                Book Consult
+                            </p>
+                            <span><i
+                                    class="fa-solid fa-arrow-up rotate-45 w-8 h-8 rounded-full flex justify-center items-center bg-black text-white p-3"></i></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
 
     </main>
 

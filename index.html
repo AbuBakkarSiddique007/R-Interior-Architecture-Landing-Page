@@ -89,7 +89,7 @@
     <header class=" bg-[#F6F6F6]">
 
         <!-- Nav bar section -->
-        <nav class="navbar w-11/12 mx-auto border-2 border-green-600 my-12">
+        <nav class="navbar w-11/12 mx-auto border-2 border-green-600 my-12 mt-3">
             <div class="navbar-start">
                 <a href="#" class="text-black  flex justify-center items-center gap-2">
                     <i
@@ -176,7 +176,7 @@
                         weathered wood, sleek metal accents, and large windows that flood the space with natural light.
                     </p>
 
-                    <button class="bg-btn_bg px-5 py-4 rounded-3xl flex justify-center items-center gap-3 mx-auto">
+                    <button class="bg-btn_bg px-5 py-2.5 font-bold rounded-3xl flex justify-center items-center gap-3 mx-auto">
                         <span>
                             View Details
                         </span>
@@ -201,15 +201,19 @@
                 <!-- About us section -->
                 <section class="w-11/12 mx-auto border-2 border-red-500 my-24">
 
-                    <div class="flex pt-12   items-center justify-center bg-hero relative">
-                        <div class="flex flex-col gap-5  md:flex-row items-center  border-2 border-red-500">
+                    <div class="flex pt-12   items-center justify-center bg-hero">
+                        <div class="flex flex-col gap-5  md:flex-row items-center  border-2 border-black">
 
                             <div class="w-full md:w-4/6  border-2 border-red-500">
-                                <div class="flex justify-center sm:justify-start">
+                                <div class="flex justify-center sm:justify-start relative">
                                     <button
                                         class="text-nav_menu_three font-semibold my-4 px-4 py-3 bg-white rounded-3xl flex justify-center items-center">
                                         <i class="fa-solid fa-arrow-right mr-2"></i> <span>About Us</span>
                                     </button>
+
+                                    <div class="absolute -top-9 -left-12 hidden sm:block">
+                                        <img src="./assets/Vector.png" alt="">
+                                    </div>
                                 </div>
                                 <h2
                                     class="text-2xl lg:text-4xl font-bold text-center md:text-left text-heading leading-tight mb-6">
@@ -265,10 +269,10 @@
                             <div class="w-full md:w-1/2 flex justify-center md:justify-end border-2 border-red-500">
                                 <img class="w-full " src="./assets/Rectangle.png">
                             </div>
+
+
                         </div>
-                        <div class="absolute top-9 -left-12 hidden sm:block">
-                            <img src="./assets/Vector.png" alt="">
-                        </div>
+
                     </div>
 
                 </section>
@@ -279,7 +283,7 @@
                     <div class="container mx-auto p-6 rounded-lg">
 
                         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-                            
+
                             <div class="service-card p-6 text-center">
                                 <div class="text-5xl mb-4 transition-transform duration-300 transform hover:scale-110">
                                     <i class="fa-regular fa-comment-dots"></i>
@@ -327,7 +331,85 @@
 
                 </section>
 
-                
+                <!-- Our work section  -->
+                <section class="w-11/12 mx-auto border-2 border-red-500 my-24">
+
+                    <div class="flex flex-col justify-center items-center my-16">
+
+                        <button
+                            class="text-nav_menu_three font-semibold my-4 px-4 py-3 bg-white rounded-3xl flex justify-center items-center">
+                            <i class="fa-solid fa-arrow-right mr-2"></i> <span>How we works</span>
+                        </button>
+
+                        <h1 class="text-5xl font-bold text-gray-800 leading-tight">
+                            Our Works Process
+                        </h1>
+
+                        <p class="text-2xl text-gray-600 mt-4 text-center">
+                            The barn house captivates with its blend of rustic charm and modern sophistication, <br>
+
+                            featuring weathered wood, sleek metal accents.
+                        </p>
+                    </div>
+
+                    <!-- cards  -->
+                    <div class="grid gap-8 grid-cols-1 md:grid-cols-4 lg:gap-12 p-6 md:p-10 mt-12">
+
+                        <!-- card - 1 -->
+                        <div
+                            class="flex flex-col justify-start items-start bg-[#e7c1d3]  space-y-6 p-6 rounded-lg shadow ">
+                            <div class="flex items-center justify-center w-16 h-16  rounded-full lg:h-20 lg:w-20">
+                                <img src="./assets/concept.png" alt="">
+                            </div>
+                            <div class="flex flex-col">
+                                <h5 class="mb-3 text-xl font-bold lg:text-2xl">Concept</h5>
+                                <p class="mb-6 text-lg text-gray-600">The barn house captivates with its blend of rustic
+                                    charm and modern.</p>
+                            </div>
+                        </div>
+
+                        <!-- card - 2 -->
+                        <div
+                            class="flex flex-col justify-start items-start bg-[#efda6e] space-y-6 p-6 rounded-lg shadow ">
+                            <div class="flex items-center justify-center w-16 h-16 rounded-full lg:h-20 lg:w-20">
+                                <img src="./assets/flow-chart.png" alt="">
+                            </div>
+                            <div class="flex flex-col">
+                                <h5 class="mb-3 text-xl font-bold lg:text-2xl">Design Process</h5>
+                                <p class="mb-6 text-lg text-gray-600">The barn house captivates with its blend of rustic
+                                    charm and modern.</p>
+                            </div>
+                        </div>
+
+
+                        <!-- card - 3 -->
+                        <div
+                            class="flex flex-col justify-start items-start space-y-6 p-6 rounded-lg shadow bg-[#a4dac3]">
+                            <div class="flex items-center justify-center w-16 h-16 rounded-full lg:h-20 lg:w-20">
+                                <img src="./assets/vision.png" alt="">
+                            </div>
+                            <div class="flex flex-col">
+                                <h5 class="mb-3 text-xl font-bold lg:text-2xl">Supervision</h5>
+                                <p class="mb-6 text-lg text-gray-600">The barn house captivates with its blend of rustic
+                                    charm and modern.</p>
+                            </div>
+                        </div>
+                        <!-- card - 4 -->
+                        <div class="flex flex-col justify-start items-start bg-[#77AAEA]  space-y-6 p-6 rounded-lg">
+                            <div class="flex items-center justify-center w-16 h-16  rounded-full lg:h-20 lg:w-20">
+                                <img src="./assets/budget-planning.png" alt="">
+                            </div>
+                            <div class="flex flex-col">
+                                <h5 class="mb-3 text-xl font-bold lg:text-2xl">Budget Planning</h5>
+                                <p class="mb-6 text-lg text-gray-600">The barn house captivates with its blend of rustic
+                                    charm and modern.</p>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </section>
+
 
             </main>
 
